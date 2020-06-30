@@ -9,6 +9,11 @@ hr {
     border-top: 0.5px solid #b7b7b7;
 }
 
+body > hr {
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
 button {
     height: 30px;
     width: 90px;
@@ -75,7 +80,7 @@ header * {
 nav {
     flex: 4;
     text-align: right;
-    margin-right: 5%;
+    margin-right: 3.5%;
 }
 
 
@@ -98,10 +103,10 @@ nav {
     margin: auto;
     display: flex;
     flex-flow: column nowrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: 300px;
-    width: 30vw;
+    width: 25vw;
 }
 
 .card>img {
@@ -126,8 +131,8 @@ nav {
 }
 
 #second {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 3.5%;
+    margin-right: 3.5%;
     display: flex;
     flex-flow: row wrap;
 }
